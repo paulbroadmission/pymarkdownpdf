@@ -14,4 +14,4 @@ is the output folder for PDFs.
 ## Notes
 - Default extension name for Markdown files is '.md'. You can add more in doclist.py.
 - It is convenient to use automatic build pipline in Github, so that you can check in markdown and later get PDF results automatically.
-- Some advance functions are depending on wkhtmltopdf, you can install wkhtmltopdf qt patched version if you like.
+- Some advance functions are depending on wkhtmltopdf, you can install [wkhtmltopdf](https://github.com/wkhtmltopdf/qt/tree/c745cfd57fbba4f2fe6e17dc95d7a8a3a4c57829) qt patched version if you like.
