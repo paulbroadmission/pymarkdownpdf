@@ -1,0 +1,9 @@
+virtualenv env
+source env/bin/activate
+pip install -r requirements.txt
+#unpatched qt install 
+sudo apt-get install wkhtmltopdf
+#sudo apt-get install xfonts-75dpi
+#wget https://bitbucket.org/wkhtmltopdf/wkhtmltopdf/downloads/wkhtmltox-0.13.0-alpha-7b36694_linux-trusty-amd64.deb
+#sudo dpkg -i wkhtmltox-0.13.0-alpha-7b36694_linux-trusty-amd64.deb
+deactivate
